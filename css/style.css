@@ -24,11 +24,7 @@ nav {
     background-color: var(--bg-nav-color);
 }
 
-nav .container-fluid {
-    height: 100%;
-}
-
-nav .row {
+nav .container-fluid, nav .container, nav .row {
     height: 100%;
 }
 
