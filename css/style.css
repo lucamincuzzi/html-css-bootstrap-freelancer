@@ -9,13 +9,31 @@ img {
     max-width: 100%;
 }
 
+[class*="col"] {
+    background-color: white;
+    /* Debug */
+    border: 1px solid black;
+}
+
 /* HEADER */
 
 /* Nav */
 
-#nav {
+nav {
     height: 100px;
     background-color: var(--bg-nav-color);
+}
+
+nav .container-fluid {
+    height: 100%;
+}
+
+nav .row {
+    height: 100%;
+}
+
+nav [class*="col"] {
+    min-height: 50px;
 }
 
 /* Hero */
