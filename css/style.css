@@ -15,6 +15,10 @@ img {
   border: 1px solid black;
 }
 
+.form-floating>.form-control {
+  padding: 2rem 0;
+}
+
 /* HEADER */
 
 /* Nav */
