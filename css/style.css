@@ -1,6 +1,6 @@
 :root {
   --bg-nav-color: #2c3e50;
-  --bg-hero-color: #1abc9c;
+  --bg-hero-about-color: #1abc9c;
 }
 
 /* COMMON */
@@ -38,7 +38,7 @@ nav [class*="col"] {
 
 #hero {
   min-height: 400px;
-  background-color: var(--bg-hero-color);
+  background-color: var(--bg-hero-about-color);
 }
 
 .jumbo-content-container {
@@ -48,11 +48,10 @@ nav [class*="col"] {
 
 /* MAIN */
 
-main .container {
-    background-color: burlywood;
-    min-height: 1000px;
-}
-
 main [class*="col"] {
     min-height: 350px;
+}
+
+#about {
+  background-color: var(--bg-hero-about-color);
 }
